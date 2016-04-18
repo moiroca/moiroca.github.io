@@ -1,0 +1,115 @@
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+.title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+h3 {
+    font-size: 30px;
+}
+
+.headline h3 {
+    font-weight: 100;
+    line-height: 0.9;
+    letter-spacing: 1px;
+}
+
+.headline img {
+    width: 200px;
+    height 200px;
+    margin: auto !important;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.qoute {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+/* Portfolio CSS */
+.portfolio-info {
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: justify;
+    height: 100%;
+    color: #000 !important;
+    font-weight: lighter;
+    color: white;
+}
+
+.portfolio-info h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0px; 
+}
+
+.portfolio-info p {
+    /*margin: auto;
+    width: 500px;
+    padding: 20px;*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .portfolio-info {
+        font-size: 16px;
+        top: -260px !important;
+        padding: 10px;
+    }
+
+    .portfolio-info h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .portfolio-info {
+        top: -363px !important;
+        font-size: 16px;
+    }
+}

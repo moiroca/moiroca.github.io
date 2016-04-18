@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Moi Roca's Profile</title>
+    <title>moiroca</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
 <body>
@@ -59,11 +59,25 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <div class="homepage-hero-module">
+            <div class="video-container">
+                <div class="filter"></div>
+                <video autoplay loop class="fillWidth">
+                    <source src="media/MP4/Aloha-Mundo.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    <source src="media/WEBM/Aloha-Mundo.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+                <div class="poster hidden">
+                    <img src="media/Snapshots/Aloha-Mundo.jpg" alt="">
+                </div>
+            </div>
+            <div class="title-container">
+                <div class="headline">
+                    <img src="img/me.png" class="img-responsive img-circle"/>
+                    <h3 class="text-white text-thin"><b>PHP</b> Web Developer</h3>
+                    <h5 class="text-white text-thin"><a class="coverr-nav-item btn-track" href="#about" style="text-decoration: none; border-bottom: 1px dotted #fff; color: #fff;">JOHN TEMOTY ROCA</a></h5>
+                    <h6 class="text-white text-thin" ><a style="text-decoration: none; border-bottom: 1px dotted #fff; color: #fff;" href="mailto:rocajohntemoty@gmail.com">HIRE ME</a></h6>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -72,8 +86,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <p class="lead qoute">"Do not stop when you are tired, stop when you are done."</p>
+                    <p class="lead">
+                        - Anonymous -
+                    </p>
                 </div>
             </div>
             <!-- /.row -->
@@ -87,7 +103,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>KEY Skills</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -97,10 +113,16 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Backend Programming</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>
+                                    <label class='label label-info'>PHP</label>
+                                    <label class='label label-info'>MySQL</label> 
+                                    <label class='label label-info'>Laravel 5</label> 
+                                    <label class='label label-info'>AngularJs</label> 
+                                    <label class='label label-info'>jQuery</label> 
+                                    <label class='label label-info'>CodeIgniter</label> 
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -110,10 +132,11 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Version Control</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>
+                                    <label class='label label-warning'>Git Version Control</label> 
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -123,10 +146,12 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Project Management</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>
+                                    <label class='label label-info'>SCRUM Agile Methodology</label>
+                                    <label class='label label-info'>Behavior Driven Development (BDD) </label>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -136,10 +161,11 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Best Practices</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>
+                                     <label class='label label-warning'> SOLID Programmer </label>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -160,25 +186,39 @@
     </aside>
 
     <!-- Portfolio -->
+
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h2>My Works and Engagements</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <a href="http://lnu.edu.ph/scuaa13/">
+                                    <img class="img-portfolio img-responsive" src="http://lnu.edu.ph/images/scuaa_logo.png">
                                 </a>
+                            </div>
+                            <div class="portfolio-info">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                            <div class="portfolio-info">
+                                <h2><b>SCUAA</b> 2013 Portal</h2>
+                                <p>
+                                    <b>Summary :</b> States Colleges Universities Atheltic Association (SCUAA) is an annual event that is being organized by the local government attended by SUC's in the the region for sport events. SCUAA 2013 Portal aimed to centralize the statuses of sports played during the event. This shows the current ranking of SUC's by Medals by Points acquired by winning a sport.
+                                </p>
+                                <p>
+                                    <b>Contribution :</b> I am the sole developer who worked on major functionalities of the system. I worked on queries to display ranking both by Medals and Points, searches by SUC's, By Sports. I also worked on some front-end designs for tabulations. 
+                                </p>
+                                <p>
+                                    <b>Technology Stack :</b> 
+                                    <label class="label label-info">PHP</label>
+                                    <label class="label label-info">CodeIgniter</label>
+                                    <label class="label label-info">MySQL</label>
+                                    <label class="label label-info">jQuery</label>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -187,6 +227,22 @@
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
+                            <div class="portfolio-info">
+                                <h2><b>SCUAA</b> 2013 Portal</h2>
+                                <p>
+                                    <b>Summary :</b> States Colleges Universities Atheltic Association (SCUAA) is an annual event that is being organized by the local government attended by States, Colleges, and Universities (SUC's) around the the region for sport events. SCUAA 2013 Portal aimed to centralize the statuses of sports played during the event. This shows the current ranking of SUC's by Medals by Points acquired by winning a sport.
+                                </p>
+                                <p>
+                                    <b>Contribution :</b> I only not contributed to the project but acted as the lead developer working on the major functionalities in the backend. I worked on queries to display ranking both by Medals and Points, searches by SUC's, By Sports. I also worked on some front-end designs for tabulations and templatings. 
+                                </p>
+                                <p>
+                                    <b>Technology Stack :</b> 
+                                    <label class="label label-info">PHP</label>
+                                    <label class="label label-info">CodeIgniter</label>
+                                    <label class="label label-info">MySQL</label>
+                                    <label class="label label-info">jQuery</label>
+                                </p>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
@@ -194,17 +250,44 @@
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
+                            <div class="portfolio-info">
+                                <h2><b>SCUAA</b> 2013 Portal</h2>
+                                <p>
+                                    <b>Summary :</b> States Colleges Universities Atheltic Association (SCUAA) is an annual event that is being organized by the local government attended by States, Colleges, and Universities (SUC's) around the the region for sport events. SCUAA 2013 Portal aimed to centralize the statuses of sports played during the event. This shows the current ranking of SUC's by Medals by Points acquired by winning a sport.
+                                </p>
+                                <p>
+                                    <b>Contribution :</b> I only not contributed to the project but acted as the lead developer working on the major functionalities in the backend. I worked on queries to display ranking both by Medals and Points, searches by SUC's, By Sports. I also worked on some front-end designs for tabulations and templatings. 
+                                </p>
+                                <p>
+                                    <b>Technology Stack :</b> 
+                                    <label class="label label-info">PHP</label>
+                                    <label class="label label-info">CodeIgniter</label>
+                                    <label class="label label-info">MySQL</label>
+                                    <label class="label label-info">jQuery</label>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
+
                     <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
+
+    <div class="modal fade" id="info">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Flag this Campaign</h4>
+                </div>
+                <div class="modal-body">
+                    asds
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
@@ -234,12 +317,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Looking for?</strong>
                     </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p>Tacloban City<br>Leyte, Philippines</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:rocajohntemoty@gmail.com">rocajohntemoty@gmail.com</a>
                         </li>
                     </ul>
                     <br>
@@ -263,7 +345,6 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
@@ -298,8 +379,7 @@
         });
     });
     </script>
-
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
->>>>>>> gh-pages
