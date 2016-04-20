@@ -214,6 +214,14 @@ hr.small {
     padding: 50px 0;
 }
 
+#portfolio h2 {
+    text-align: center;
+}
+
+#portfolio div.row:not(:last-child) {
+    margin-bottom: 100px;
+}
+
 .portfolio-item {
     margin-bottom: 30px;
 }
