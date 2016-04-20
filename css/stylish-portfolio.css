@@ -204,7 +204,10 @@ hr.small {
 }
 
 /* Description */
-.description 
+.description {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+}
 /* Portfolio */
 
 .portfolio {
