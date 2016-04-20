@@ -174,7 +174,7 @@ hr.small {
 
 /* About */
 
-.quote {
+.about {
     padding: 10px 0;
 }
 
@@ -204,11 +204,7 @@ hr.small {
 }
 
 /* Description */
-.description {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.3);
-}
-
+.description 
 /* Portfolio */
 
 .portfolio {
