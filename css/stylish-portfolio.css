@@ -195,7 +195,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/me.jpg) no-repeat center center scroll;
+    background: url(/img/me.jpg) no-repeat center center scroll;
     background-position: right bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
